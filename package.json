@@ -1,0 +1,27 @@
+{
+  "name": "navidrome-site",
+  "version": "0.0.1",
+  "description": "Navidrome Music Server site",
+  "main": "none.js",
+  "scripts": {
+    "start": "hugo server",
+    "build": "hugo build",
+    "sync-images": "./sync-images.sh 20072696"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navidrome/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navidrome/website/issues"
+  },
+  "homepage": "https://github.com/navidrome/website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.7",
+    "postcss-cli": "^9.0.2"
+  }
+}
