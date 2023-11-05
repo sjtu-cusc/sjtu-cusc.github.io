@@ -90,7 +90,7 @@ if (!doNotTrack) {
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.6c62dd1cf59669d7c94de1a7f821c33b.json"
+    data-offline-search-index-json-src="/offline-search-index.1660bdc74c96ea1bf1fc71f2f7213eb6.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -153,15 +153,18 @@ if (!doNotTrack) {
   
 </section>
 
-<p>内容和美观度,超链接后续添加~</p>
+<p>内容的排版，文字样式都可以更改，，超链接也是后需更改</p>
 <style>
   .news-article {
     font-family: Arial, sans-serif;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
     padding: 15px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .news-article:hover {
+    transform: scale(1.05);
   }
   .news-article > div {
     margin-bottom: 20px;
@@ -179,6 +182,14 @@ if (!doNotTrack) {
     line-height: 1.6;
     color: #555;
   }
+  .column-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .column {
+    width: 48%; /* 控制每列宽度 */
+  }
 </style>
 
 
@@ -189,26 +200,38 @@ if (!doNotTrack) {
 	<div class="col">
 		<div class="row section">
 			
-				<div class="news-article">
-  <div>
-    <h3>公益活动日程安排</h3>
-    <p><strong>日期：</strong> 2023年11月15日</p>
-    <p><strong>地点：</strong> 中心广场</p>
-    <p><strong>详情：</strong> 我们诚挚邀请您参加公益活动，一起为环境保护尽一份力。活动将包括清洁环境、植树和讲座等环保活动。</p>
+				<div class="column-container">
+  <div class="column">
+    <a href="链接1" target="_blank" class="news-article">
+      <div>
+        <h3>公益活动日程安排</h3>
+        <p><strong>日期：</strong> 2023年11月15日</p>
+        <p><strong>地点：</strong> 中心广场</p>
+        <p><strong>详情：</strong> 我们诚挚邀请您参加公益活动，一起为环境保护尽一份力。活动将包括清洁环境、植树和讲座等环保活动。</p>
+      </div>
+    </a>
   </div>
-  <div>
-    <h3>文化艺术展览</h3>
-    <p><strong>日期：</strong> 2023年11月20日至11月25日</p>
-    <p><strong>地点：</strong> 市民中心</p>
-    <p><strong>详情：</strong> 这是一次精彩的艺术盛会，将展出本地和国际艺术家的作品。欢迎大家前来欣赏并交流。</p>
+  <div class="column">
+    <a href="链接2" target="_blank" class="news-article">
+      <div>
+        <h3>文化艺术展览</h3>
+        <p><strong>日期：</strong> 2023年11月20日至11月25日</p>
+        <p><strong>地点：</strong> 市民中心</p>
+        <p><strong>详情：</strong> 这是一次精彩的艺术盛会，将展出本地和国际艺术家的作品。欢迎大家前来欣赏并交流。</p>
+      </div>
+    </a>
   </div>
-  <div>
-    <h3>科技创新大会</h3>
-    <p><strong>日期：</strong> 2023年12月5日</p>
-    <p><strong>地点：</strong> 技术园区大会堂</p>
-    <p><strong>详情：</strong> 邀请来自各领域的专家，分享最新的科技创新成果和未来的发展趋势。</p>
+  <div class="column">
+    <a href="链接3" target="_blank" class="news-article">
+      <div>
+        <h3>科技创新大会</h3>
+        <p><strong>日期：</strong> 2023年12月5日</p>
+        <p><strong>地点：</strong> 技术园区大会堂</p>
+        <p><strong>详情：</strong> 邀请来自各领域的专家，分享最新的科技创新成果和未来的发展趋势。</p>
+      </div>
+    </a>
   </div>
-  <!-- Add more event notifications here -->
+  <!-- 继续添加更多活动通知 -->
 </div>
 
 			
