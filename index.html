@@ -90,7 +90,7 @@ if (!doNotTrack) {
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.1660bdc74c96ea1bf1fc71f2f7213eb6.json"
+    data-offline-search-index-json-src="/offline-search-index.afd8311d0c50a00a4d30e26c7977edf0.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
@@ -146,11 +146,11 @@ if (!doNotTrack) {
 	<br>
 	<br>
 
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="/about/">
-		会议内容 <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="/event/">
+		重要活动 <i class="fas fa-arrow-alt-circle-right ml-2"></i>
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="/docs/">
-		会议相关 <i class="fas fa-cloud-download-alt ml-2 "></i>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="/date/">
+		会议日程 <i class="fas fa-cloud-download-alt ml-2 "></i>
 	</a>
 	<p class="lead mt-5">会议简介</p>
 
@@ -373,7 +373,7 @@ if (!doNotTrack) {
 	<div class="container text-center td-arrow-down">
 		<div class="h4 mb-0">
 			
-				<p>以此类推</p>
+				<p>其他内容以此类推</p>
 
 			
 		</div>
@@ -383,7 +383,43 @@ if (!doNotTrack) {
 
 
 
+<style>
+	/* 返回顶部按钮的样式 */
+	.back-to-top {
+	  position: fixed;
+	  bottom: 20px;
+	  right: 20px;
+	  z-index: 999;
+	  font-size: 18px;
+	  background-color: #007bff;
+	  color: white;
+	  border: none;
+	  border-radius: 50%;
+	  width: 40px;
+	  height: 40px;
+	  text-align: center;
+	  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	  cursor: pointer;
+	  transition: background-color 0.3s, transform 0.3s;
+	}
+  
+	.back-to-top:hover {
+	  background-color: #0056b3;
+	  transform: scale(1.1);
+	}
+  </style>
 
+  <button onclick="backToTop()" class="back-to-top" title="返回顶部">
+	↑
+  </button>
+  
+  <script>
+	// 点击按钮返回顶部
+	function backToTop() {
+	  document.body.scrollTop = 0; // Safari
+	  document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
+	}
+  </script>
 
 
 
