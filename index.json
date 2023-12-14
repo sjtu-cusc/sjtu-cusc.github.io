@@ -56,35 +56,98 @@ if (!doNotTrack) {
   </head>
   <body class="td-page">
     <header>
-      <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
-  <a class="navbar-brand" href="/"><span class="navbar-brand__logo navbar-logo"></span><span class="navbar-brand__name">中国高校算力年会</span></a>
-  <div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
-    <ul class="navbar-nav mt-2 mt-lg-0">
-      <li class="nav-item mr-4 mb-2 mb-lg-0">
-        <a class="nav-link active" href="/"><span class="active">首页</span></a>
-      </li>
-      <li class="nav-item mr-4 mb-2 mb-lg-0">
-        <a class="nav-link" href="/event/"><span>重要活动</span></a>
-      </li>
-      <li class="nav-item mr-4 mb-2 mb-lg-0">
-        <a class="nav-link" href="/date/"><span>活动日程</span></a>
-      </li>
-      <li class="nav-item mr-4 mb-2 mb-lg-0">
-        <a class="nav-link" href="/notice/"><span>活动通知</span></a>
-      </li>
-      <li class="nav-item mr-4 mb-2 mb-lg-0">
-        <a class="nav-link" href="/guest/"><span>演讲嘉宾</span></a>
-      </li>
-      <li class="nav-item mr-4 mb-2 mb-lg-0">
-        <a class="nav-link" href="/docs/"><span>下载中心</span></a>
-      </li>
-      <li class="nav-item mr-4 mb-2 mb-lg-0">
-        <a class="nav-link" href="/instruct/"><span>参会指南</span></a>
-      </li>
-      </ul>
-  </div>
-  <div class="navbar-nav d-none d-lg-block">
-    <div class="td-search td-search--offline">
+      
+<nav class="js-navbar-scroll navbar navbar-expand-xl navbar-dark  td-navbar">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_navbar"
+		aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
+			
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link active" href="/" ><span class="active">首页</span></a>
+			</li>
+			
+			
+			
+			<li class="dropdown sub-menu">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					
+					<span>重要活动</span>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					
+					<a class="dropdown-item" href="/event/1/">中国高校科学算力联盟</a>
+					
+					<a class="dropdown-item" href="/event/2/">2023年中国高校算力优秀案例征集及评审</a>
+					
+					<a class="dropdown-item" href="/event/3/">高校算力专员培训班（第一期）</a>
+					
+					<a class="dropdown-item" href="/event/4/">2023中国高校算力年会</a>
+					
+				</div>
+			</li>
+			
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/guest/" ><span>演讲嘉宾</span></a>
+			</li>
+			
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/docs/" ><span>下载中心</span></a>
+			</li>
+			
+			
+			
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				
+				
+				
+				
+				
+				
+				
+				
+				<a class="nav-link" href="/instruct/" ><span>参会指南</span></a>
+			</li>
+			
+			
+			
+			
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block"><div class="td-search td-search--offline">
   <div class="td-search__icon"></div>
   <input
     type="search"
@@ -93,13 +156,12 @@ if (!doNotTrack) {
     aria-label="Search this site…"
     autocomplete="off"
     
-    data-offline-search-index-json-src="/offline-search-index.0016280079faa21b6f45dc01fee915d1.json"
+    data-offline-search-index-json-src="/offline-search-index.4f7841e5d6a9de9b79904c0acc882b9c.json"
     data-offline-search-base-href="/"
     data-offline-search-max-results="10"
   >
 </div>
-
-  </div>
+</div>
 </nav>
     </header>
     <div class="container-fluid td-default td-outer">
@@ -114,43 +176,15 @@ if (!doNotTrack) {
     <div class="row">
       <div class="col-6 col-sm-4 text-xs-center order-sm-2">
         
-        
-        
-<ul class="list-inline mb-0">
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="上海交通大学" aria-label="上海交通大学">
-    <a class="text-white" target="_blank" rel="noopener" href="https://sjtu.edu.cn/" aria-label="上海交通大学">
-      <i class="fa-solid fa-house-chimney"></i>
-    </a>
-  </li>
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="网络信息中心" aria-label="网络信息中心">
-    <a class="text-white" target="_blank" rel="noopener" href="https://net.sjtu.edu.cn/" aria-label="网络信息中心">
-      <i class="fa-solid fa-wifi"></i>
-    </a>
-  </li>
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="高性能计算中心" aria-label="高性能计算中心">
-    <a class="text-white" target="_blank" rel="noopener" href="https://hpc.sjtu.edu.cn/" aria-label="高性能计算中心">
-      <i class="fa-solid fa-calculator"></i>
-    </a>
-  </li>
-  
-</ul>
-
-        
-        
       </div>
       <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
         
-        
-        
       </div>
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
-        <small class="text-white">&copy; 2023 上海交通大学 高算大会 All Rights Reserved</small>
+        <small class="text-white">&copy; 2023 高校算力年会 All Rights Reserved</small>
         
 	
-		<p class="mt-2"><a href="/about/">关于本会议</a></p>
+		
 	
       </div>
     </div>

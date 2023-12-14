@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sjtu-cusc.github.io/docs/0-background/</loc>
-    <lastmod>2023-12-05T15:16:29+08:00</lastmod>
+    <loc>https://sjtu-cusc.github.io/event/4/</loc>
   </url><url>
-    <loc>https://sjtu-cusc.github.io/docs/1-course-1/</loc>
-    <lastmod>2023-12-05T15:16:29+08:00</lastmod>
+    <loc>https://sjtu-cusc.github.io/event/2/</loc>
+  </url><url>
+    <loc>https://sjtu-cusc.github.io/event/1/</loc>
+  </url><url>
+    <loc>https://sjtu-cusc.github.io/docs/0-invitation/</loc>
+  </url><url>
+    <loc>https://sjtu-cusc.github.io/event/</loc>
+    <lastmod>2023-12-07T16:55:57+08:00</lastmod>
+  </url><url>
+    <loc>https://sjtu-cusc.github.io/event/3/</loc>
+  </url><url>
+    <loc>https://sjtu-cusc.github.io/docs/1-notice/</loc>
   </url><url>
     <loc>https://sjtu-cusc.github.io/index.json</loc>
     <lastmod>2023-11-04T00:44:42+08:00</lastmod>
@@ -14,17 +23,8 @@
     <loc>https://sjtu-cusc.github.io/search/</loc>
     <lastmod>2023-11-04T00:44:42+08:00</lastmod>
   </url><url>
-    <loc>https://sjtu-cusc.github.io/docs/</loc>
-    <lastmod>2023-12-06T20:45:37+08:00</lastmod>
-  </url><url>
     <loc>https://sjtu-cusc.github.io/</loc>
-    <lastmod>2023-12-05T16:15:52+08:00</lastmod>
-  </url><url>
-    <loc>https://sjtu-cusc.github.io/date/</loc>
-    <lastmod>2023-12-06T20:45:37+08:00</lastmod>
-  </url><url>
-    <loc>https://sjtu-cusc.github.io/about/</loc>
-    <lastmod>2023-11-04T19:43:04+08:00</lastmod>
+    <lastmod>2023-12-07T16:55:57+08:00</lastmod>
   </url><url>
     <loc>https://sjtu-cusc.github.io/instruct/</loc>
     <lastmod>2023-11-04T19:43:04+08:00</lastmod>
@@ -32,10 +32,7 @@
     <loc>https://sjtu-cusc.github.io/guest/</loc>
     <lastmod>2023-12-06T00:37:19+08:00</lastmod>
   </url><url>
-    <loc>https://sjtu-cusc.github.io/notice/</loc>
-    <lastmod>2023-12-06T00:37:19+08:00</lastmod>
-  </url><url>
-    <loc>https://sjtu-cusc.github.io/event/</loc>
-    <lastmod>2023-12-05T18:06:23+08:00</lastmod>
+    <loc>https://sjtu-cusc.github.io/docs/</loc>
+    <lastmod>2023-12-06T20:45:37+08:00</lastmod>
   </url>
 </urlset>
